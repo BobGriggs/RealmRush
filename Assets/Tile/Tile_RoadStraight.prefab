@@ -51,6 +51,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4988158500872286167, guid: 4d7d5f364ca8ddb4e8b43a80fc6ae29b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4988158500872286167, guid: 4d7d5f364ca8ddb4e8b43a80fc6ae29b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4988158500872286167, guid: 4d7d5f364ca8ddb4e8b43a80fc6ae29b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4988158500872286167, guid: 4d7d5f364ca8ddb4e8b43a80fc6ae29b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4988158500872286167, guid: 4d7d5f364ca8ddb4e8b43a80fc6ae29b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
     - target: {fileID: 7444339584700152693, guid: 4d7d5f364ca8ddb4e8b43a80fc6ae29b, type: 3}
       propertyPath: m_Name
       value: Tile_RoadStraight

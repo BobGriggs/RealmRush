@@ -7,6 +7,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4746863092650294640, guid: 3952570884b8f454293d5e54e5969a6d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746863092650294640, guid: 3952570884b8f454293d5e54e5969a6d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746863092650294640, guid: 3952570884b8f454293d5e54e5969a6d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4923299839096576974, guid: 3952570884b8f454293d5e54e5969a6d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -25,7 +37,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4923299839096576974, guid: 3952570884b8f454293d5e54e5969a6d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4923299839096576974, guid: 3952570884b8f454293d5e54e5969a6d, type: 3}
       propertyPath: m_LocalRotation.x
@@ -33,7 +45,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4923299839096576974, guid: 3952570884b8f454293d5e54e5969a6d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4923299839096576974, guid: 3952570884b8f454293d5e54e5969a6d, type: 3}
       propertyPath: m_LocalRotation.z
@@ -45,7 +57,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4923299839096576974, guid: 3952570884b8f454293d5e54e5969a6d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4923299839096576974, guid: 3952570884b8f454293d5e54e5969a6d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -53,7 +65,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7176162776647018962, guid: 3952570884b8f454293d5e54e5969a6d, type: 3}
       propertyPath: m_Name
-      value: Tile_RoadStraight_90 Variant
+      value: Tile_RoadStraight_90 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3952570884b8f454293d5e54e5969a6d, type: 3}
