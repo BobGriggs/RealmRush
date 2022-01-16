@@ -340,6 +340,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 1316210964344128276, guid: 4d7d5f364ca8ddb4e8b43a80fc6ae29b, type: 3}
+      propertyPath: towerPrefab
+      value: 
+      objectReference: {fileID: 3219458064393657486, guid: 8a965e088bae16643aab3d07ccfd5e2e, type: 3}
     - target: {fileID: 4650620211120408937, guid: 4d7d5f364ca8ddb4e8b43a80fc6ae29b, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -1530,7 +1534,7 @@ MonoBehaviour:
   - {fileID: 121314638}
   - {fileID: 2011949497}
   - {fileID: 304132844}
-  speed: 1
+  speed: 0.55
 --- !u!1001 &785387291
 PrefabInstance:
   m_ObjectHideFlags: 0
