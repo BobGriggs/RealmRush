@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 5672325927823913723}
   - component: {fileID: 4634803505170177321}
   - component: {fileID: 8451768702862786638}
-  - component: {fileID: 2942462060791964902}
+  - component: {fileID: -3187065326839799468}
   m_Layer: 0
   m_Name: Ram
   m_TagString: Untagged
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHitPoints: 5
   currentHitPoints: 0
---- !u!114 &2942462060791964902
+--- !u!114 &-3187065326839799468
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
