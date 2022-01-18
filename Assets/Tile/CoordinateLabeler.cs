@@ -1,8 +1,14 @@
+// When Building Final Game, Move this script to the Editor 
+// folder and ignore that folder when building.
+// Cannot build whith using UnityEditor (lines 67-68)
+
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+[RequireComponent(typeof(TextMeshPro))]
 
 [ExecuteAlways]
 public class CoordinateLabeler : MonoBehaviour
@@ -28,9 +34,10 @@ public class CoordinateLabeler : MonoBehaviour
         {
             DisplayCoordinates();
             UpdateObjectName();
+            label.enabled = true;
         }
 
-        ColorCoordinates();
+        SetLabelColor();
         ToggleLabels();
     }
 
@@ -43,7 +50,7 @@ public class CoordinateLabeler : MonoBehaviour
     }
 
 
-    void ColorCoordinates()
+    void SetLabelColor()
     {
         if(waypoint.IsPlaceable)
         {

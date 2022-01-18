@@ -142,6 +142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHitPoints: 5
+  difficultyRamp: 1
   currentHitPoints: 0
 --- !u!114 &-3187065326839799468
 MonoBehaviour:
@@ -169,3 +170,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4209efaf6211d2f40addc027c240ee7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goldReward: 25
+  goldPenalty: 25
