@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
+[RequireComponent(typeof(Enemy))]
+
 public class Bank : MonoBehaviour
 {
     [SerializeField] int startingBalance = 300;
